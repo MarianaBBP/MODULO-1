@@ -4,57 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mariana</title>
+    <title>Front-end1</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Mariana Benício Bezerra de Pinho</h1>
-    <!-- <input type="button" value="Quem Sou eu">
-    <input type="button" value="Hobbies e interesses">
-    <input type="button" value="Contatos"> -->
-
-    <a href="#quem-sou-eu">Quem sou eu</a>
-    <a href="#hobbies-e-interesses">Hobbies e interesses</a>
-    <a href="#contatos">Contatos</a>
-
+   <div class="box">
+        <h1>Mariana BBP</h1> 
+        <div class="menu">
+            <a class="active" href="#Quem">Quem sou eu?</a>
+            <a href="#Hobbies">Hobbies & Interesses</a>
+            <a href="#Contato">Entre em Contato</a>
+            <a href="#Formulario">Formulário</a>
+        </div>
+    </div>
+   <!--<div class="topnav">
+  <a class="active" h-->
+    <!--
+        Aqui foi feita uma lista para que eu puxasse as ID e colocassem com links
+    -->
     <div>
-        <h2 id="quem-sou-eu">Quem sou eu?</h2>
-            <p> &nbsp; &nbsp; &nbsp; &nbsp; Poderia começar esse texto com o básico,
-                nascida e criada na cidade do Rio de Janeiro,
-                especificamente no suburbio carioca.
-                Estudei do sexto ano até o final do ensino médio 
-                em escolas públicas. E faço faculdade na Universidade Federal
-                Fluminense - conhecida popularmente como UFF - em bacharel em Políticas Públicas.
-                Como estudante da UFF, fiz estágio na Prefeitura Municipal de Angra dos Reis
-                no periodo de 1 ano e 9 meses na Superitendencia de Políticas Públicas.
-             <br> &nbsp;&nbsp;&nbsp;&nbsp; Falar sobre a minha personalidade, é pensar em uma pessoa que muita das vezes
-                é introvertida, timida, entretanto, depois que conhece me torno extrovestida,
-                bricalhona, e comunicativa. Gosto de colaborar com os meus colegas, porém 
-                me estresso com muita facilidade quando percebo que há pessoas que não focam no que é pra focar.
-        
-             <br> &nbsp;&nbsp;&nbsp;&nbsp; Atualemnte, faço psicologa, pois por conta da pandemia e de perdas que tive antes da pandemia,
-                 eu desenvolvi ansiedade e depressão, sendo uma já foi tratada e a outra segue em tratamento.
-                 Além de sofrer de estresse que costuma de manifestar quando estou muito ansiosa.
+        <ol>
+         <li id="Quem"> <strong>Quem sou eu?</strong></li>
+         <p>&nbsp; &nbsp; &nbsp; &nbsp; Poderia começar esse texto com o básico,
+         nascida e criada na cidade do Rio de Janeiro especificamente no suburbio carioca.
+         Estudei do sexto ano até o final do ensino médio 
+         em escolas públicas. E faço faculdade na Universidade Federal
+         Fluminense - conhecida popularmente como UFF - em bacharel em Políticas Públicas.
+         Como estudante da UFF, fiz estágio na Prefeitura Municipal de Angra dos Reis
+         no periodo de 1 ano e 9 meses na Superitendencia de Políticas Públicas.</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp; Falar sobre a minha personalidade, é pensar em uma pessoa que muita das vezes
+         é introvertida, timida, entretanto, depois que conhece me torno extrovestida,
+         bricalhona, e comunicativa. Gosto de colaborar com os meus colegas, porém 
+         me estresso com muita facilidade quando percebo que há pessoas que não fazem o minimo para boa convivência.</p>
+         <br>
+
+            <div class="imagem"><img src="../projeto-modulo-1/imagens/eu no sol.jpeg" alt="Eu no SOl" width="160px"></div>
+
+         <li id="Hobbies"><strong>Hobbies & Interesses</strong></li>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Amante dos animais, da leitura romantica e clichê. Amo ver series que
+            não tem a minima possibilidade de acontecer na vida real e que não tenham nada de normal.
             </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp; Meu maior hobbie é a leitura de romances, me perco no tempo quando estou lendo eles.
+            Além de amar viajar para lugares perto de belezas naturais, ou que fazem parte de momentos históricos
+            da nossa história. Tais como Cataratatas do Iguaçu, Marco das Três Fronteiras localizados em Foz do Iguaçu, 
+            Angra dos Reis, e suas belezas naturiais e seus mais diversos pontos marcados pela história do nosso país,
+            Visconde de Mauá, Penedo, Guarapari, e Cataguases.</p>
+            <div class="imagem">
+                <img src="../projeto-modulo-1/imagens/Livros.jpeg" alt="Brigderton" width="160px">
+                <img src="../projeto-modulo-1/imagens/twiling.jpeg" alt="twiling" width="195px">
+            </div>
+        
+         <li id="Contato"> <strong>Entre em contato</strong></li>
+            <a href="https://api.whatsapp.com/send?phone=5521969546823">
+                <img src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png" alt="Whatsapp" width="50 px"></a>
+        
+            <a href="https://www.linkedin.com/in/marianabbpinho/">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" width="45px"></a>
+          
+            <a href="https://github.com/MarianaBBP">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="50px">
+            </a>
+         <li id="Formulario"> <strong>Formulário</strong></li> 
+            <form>
+                <div> Nome:     <input type="text"></div>
+                <div> Telefone: <input type="text"></div>
+                <div> Email:    <input type="email" name="" id=""></div>
+                <br>
+                <div>Mensagem:
+                <br><textarea name="" id="" cols="30" rows="10"></textarea></div>
+            </form>
+        </ol>
     </div>
-    <div>
-        <h2 id="hobbies-e-interesses">Hobbies e interesses</h2>
-   
-        <p>&nbsp;&nbsp;&nbsp;&nbsp; Meu maior hobbie é a leitura de romances, me perco no tempo quando estou lendo eles.
-        Além de amar viajar para lugares perto de belezas naturais, ou que fazem parte de momentos históricos
-        da nossa história. Tais como Cataratatas do Iguaçu, Marco das Três Fronteiras localizados em Foz do Iguaçu, 
-        Angra dos Reis, e suas belezas naturiais e seus mais diversos pontos marcados pela história do nosso país,
-        Visconde de Mauá, Penedo, Guarapari, e Cataguases.
-        </p>
-    </div>
-    <div>
-        <h2 id="contatos">Contatos</h2>
-        <p>Mariana de Pinho <br> Rio de Janeiro, RJ, Brasil</p>
-        <ul>
-        <li><a href="tel:+5521969546923">Telefone</a></li>
-        <li><a href="mailto:marianadepinho@gmail.com" target="_blank">Email</a></li>
-        <li><a href="https://br.linkedin.com/in/marianabbpinho">Linkedin</a></li>
-        <li><a href="https://github.com/MarianaBBP">GitHub</a></li>
-        </ul>
-</div>
 </body>
 </html>
